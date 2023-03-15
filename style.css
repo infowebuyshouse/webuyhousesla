@@ -18,6 +18,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 img {
 	height: 100%;
@@ -30,7 +31,7 @@ p {
 	margin-top: 5px;
 	line-height: 2.5rem;
 	font-weight: 300;
-	letter-spacing: 0.05rem;
+	letter-spacing: .5rem;
 }
 .section-title {
 	font-size: 4rem;
@@ -39,7 +40,7 @@ p {
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
-	text-align: justify center;
+	text-justify: inter-word;
 
 }
 
@@ -65,12 +66,13 @@ p {
 }
 
 .brand h1 {
-	font-size: 2.6rem;
+	font-size: 2rem;
 	text-transform: uppercase;
 	color: white;
 }
 .brand h1 span {
 	color: crimson;
+	font-size: 2.3rem;
 
 }
 
@@ -221,7 +223,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: 0.5;
+	opacity: 0.2;
 	z-index: -1;
 }
 #hero .hero {
@@ -233,7 +235,7 @@ p {
 #hero h1 {
 	display: block;
 	width: fit-content;
-	font-size: 4rem;
+	font-size: 4.6rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
@@ -287,13 +289,17 @@ p {
  
 
 #services .service-top p {
-    font-size: 3rem;
+
+    font-size: 2.7rem;
 	font-weight: 500;
     margin-bottom: 40px;
     margin-top: 60px;
-	text-align: justify left;
-	line-height: 1.2;
-	word-spacing: 1px;
+	text-align: justify;
+	text-align-last: left;
+	text-justify: distribute;
+	line-height: 5rem;
+	word-spacing:0.2px ;
+	letter-spacing: 0.2px;
 }
 
 
@@ -482,11 +488,20 @@ p {
 }
 /* End Services Section */
 /*Video Section */
-
-#video .video-sec{
+.frame {
+	width: 550px;
+	height: auto;
+	border: 2px solid black;
+	background: #000;
+	margin: auto;
+	padding: 15px 10px;
+  }
+  
+.center { 
+	margin: 0 auto;
+	width: 500px; 
 	
-}
-
+} 
 
 /* OFFER section */
 #projects .projects {
@@ -527,17 +542,21 @@ p {
 	color: white;
 }
 #projects .project-info h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 500;
 }
-#projects .project-info h2 {
-	font-size: 1.8rem;
-	font-weight: 500;
-	margin-top: 10px;
-}
+
 #projects .project-info p {
 	color: white;
 	font-size: 2rem;
+	text-align: justify;
+	text-align-last: left;
+	text-justify: distribute;
+	line-height: 3rem;
+	word-spacing:0.2px ;
+	letter-spacing: 0.2px;
+
+
 }
 #projects .project-img {
     max-width: 100%;
@@ -564,6 +583,8 @@ p {
 }
 /* End OFFER section */
 
+
+
 /* About Section */
 #about .about {
 	flex-direction: column-reverse;
@@ -573,21 +594,27 @@ p {
 	padding: 100px 20px;
 }
 #about .col-left {
-	width: 300px;
+	width: 250px;
 	height: 360px;
 }
 #about .col-right {
 	width: 100%;
 }
 
+
 #about .col-right h2 {
 	font-style: "Montserrat";
 	font-size: 3rem;
-	font-weight: 700;
+	font-weight: 500;
 	letter-spacing: 0.1rem;
-	margin-bottom: 5px;
-	margin-top: 3px;
-	text-align: justify left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: justify;
+	text-align-last: left;
+	text-justify: distribute;
+	line-height: 3rem;
+	word-spacing:0.2px ;
+	letter-spacing: 0.2px;
 }
 
 
@@ -627,7 +654,7 @@ p {
 	border-radius: 10px;
 	padding: 30px;
 	margin: 30px;
-	display: flex;
+	display: stretch;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -643,14 +670,14 @@ p {
 	margin-bottom: 10px;
 }
 #contact .contact-info h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 500;
 	margin-bottom: 5px;
 }
 #contact .contact-info h2 {
-	font-size: 3rem;
+	font-size: 2rem;
 	line-height: 3rem;
-	font-weight: 300;
+	font-weight:500;
 }
 /*End contact Section */
 
@@ -664,10 +691,11 @@ p {
 	padding-top: 50px;
 	padding-bottom: 10px;
 }
+
 #footer h2 {
 	color: white;
 	font-weight: 500;
-	font-size: 1.8rem;
+	font-size: 2rem;
 	letter-spacing: 0.1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -768,7 +796,7 @@ p {
 
 	/* Hero */
 	#hero h1 {
-		font-size: 7rem;
+		font-size: 5rem;
 	}
 	/* End Hero */
 
@@ -829,11 +857,11 @@ p {
 		border: 10px solid crimson;
 	}
 	#about .col-right {
-		text-align: left;
+		
 		padding: 30px;
 	}
 	#about .col-right h1 {
-		text-align: left;
+		text-justify:distribute-all-lines;
 	}
 	/* End About */
 
@@ -866,7 +894,7 @@ p {
 	}
 	#contact .contact-item .contact-info {
 		width: 100%;
-		text-align: left;
+		text-align: center;
 		padding-left: 20px;
 	}
 	/* End contact  */
@@ -914,3 +942,4 @@ p {
     margin: 1.5%;
 }
 /* End  Media Query For Desktop */
+}
