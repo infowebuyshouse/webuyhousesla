@@ -809,7 +809,7 @@ p {
 	/* End Services Section */
 	/* video */
 	.frame {
-		width: 380px;
+		width: 250px;
 		height: auto;
 		border: 2px solid black;
 		background: #000;
@@ -819,7 +819,7 @@ p {
 	  
 	.center { 
 		margin: 0 auto;
-		width: 350px; 
+		width: 200px; 
 		
 	} 
 
