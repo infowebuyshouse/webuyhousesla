@@ -677,6 +677,15 @@ p {
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
+#footer h1 {
+	color: white;
+	font-weight: 500;
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
 #footer h1 span {
 	color: crimson;
 	font-weight: 500;
