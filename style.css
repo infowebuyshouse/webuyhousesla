@@ -473,7 +473,7 @@ p {
 /* End Services Section */
 /*Video Section */
 .frame {
-	width: 600px;
+	width: 700px;
 	height: auto;
 	border: 2px solid black;
 	background: #000;
@@ -483,7 +483,7 @@ p {
   
 .center { 
 	margin: 0 auto;
-	width: 550px; 
+	width: 650px; 
 	
 } 
 
@@ -1168,9 +1168,9 @@ p {
     flex-basis: 22%;
     margin: 1.5%;
 }
-	/*Video Section */
+/*Video Section */
 .frame {
-	width: 600px;
+	width: 700px;
 	height: auto;
 	border: 2px solid black;
 	background: #000;
@@ -1180,7 +1180,7 @@ p {
   
 .center { 
 	margin: 0 auto;
-	width: 550px; 
+	width: 650px; 
 	
 } 
 #learns .learn-info h1 {
