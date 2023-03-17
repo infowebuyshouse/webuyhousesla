@@ -807,6 +807,16 @@ p {
 		margin: 2.5%;
 	}
 	/* End Services Section */
+	/* video */
+	.frame {
+		width: 400px;
+		height: auto;
+		border: 2px solid black;
+		background: #000;
+		margin: auto;
+		padding: 15px 10px;
+	  }
+	   /* End Video Section */
 
 	/* learn */
 	#learns .learn-item {
