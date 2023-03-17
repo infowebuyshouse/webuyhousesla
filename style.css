@@ -473,7 +473,7 @@ p {
 /* End Services Section */
 /*Video Section */
 .frame {
-	width: 550px;
+	width: 600px;
 	height: auto;
 	border: 2px solid black;
 	background: #000;
@@ -671,9 +671,9 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer {
-	min-height: 200px;
+	min-height: 150px;
 	flex-direction: column;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 }
 #footer h1 span {
