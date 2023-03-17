@@ -808,18 +808,22 @@ p {
 	}
 	/* End Services Section */
 	/* video */
+	 /* video */
 	.frame {
-		width: 250px;
+		width: 450px;
 		height: auto;
 		border: 2px solid black;
 		background: #000;
 		margin: auto;
 		padding: 15px 10px;
 	  }
-	  
+	
 	.center { 
 		margin: 0 auto;
-		width: 200px; 
+		width: 400px; 
+		
+
+
 		
 	} 
 
