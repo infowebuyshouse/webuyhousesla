@@ -274,14 +274,14 @@ p {
 
 #services .service-top p {
 
-    font-size: 2.7rem;
+    font-size: 2.5rem;
 	font-weight: 500;
     margin-bottom: 40px;
     margin-top: 60px;
 	text-align: justify;
 	text-align-last: left;
 	text-justify: distribute;
-	line-height: 5rem;
+	line-height: 4rem;
 	word-spacing:0.2px ;
 	letter-spacing: 0.2px;
 }
