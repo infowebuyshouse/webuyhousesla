@@ -473,7 +473,7 @@ p {
 /* End Services Section */
 /*Video Section */
 .frame {
-	width: 2000px;
+	width: 600px;
 	height: auto;
 	border: 2px solid black;
 	background: #000;
@@ -483,7 +483,7 @@ p {
   
 .center { 
 	margin: 0 auto;
-	width: 500px; 
+	width: 550px; 
 	
 } 
 
@@ -809,13 +809,20 @@ p {
 	/* End Services Section */
 	/* video */
 	.frame {
-		width: 400px;
+		width: 450px;
 		height: auto;
 		border: 2px solid black;
 		background: #000;
 		margin: auto;
 		padding: 15px 10px;
 	  }
+	  
+	.center { 
+		margin: 0 auto;
+		width: 400px; 
+		
+	} 
+
 	   /* End Video Section */
 
 	/* learn */
@@ -978,6 +985,21 @@ p {
 		margin: 2.5%;
 	}
 	/* End Services Section */
+	/*Video Section */
+.frame {
+	width: 600px;
+	height: auto;
+	border: 2px solid black;
+	background: #000;
+	margin: auto;
+	padding: 15px 10px;
+  }
+  
+.center { 
+	margin: 0 auto;
+	width: 550px; 
+	
+} 
 
 	/* learn */
 	#learns .learn-item {
@@ -1146,6 +1168,21 @@ p {
     flex-basis: 22%;
     margin: 1.5%;
 }
+	/*Video Section */
+.frame {
+	width: 600px;
+	height: auto;
+	border: 2px solid black;
+	background: #000;
+	margin: auto;
+	padding: 15px 10px;
+  }
+  
+.center { 
+	margin: 0 auto;
+	width: 550px; 
+	
+} 
 #learns .learn-info h1 {
 	font-size: 3rem;
 	font-weight: 500;
