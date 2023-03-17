@@ -274,7 +274,7 @@ p {
 
 #services .service-top p {
 
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 	font-weight: 500;
 	
         margin-bottom: 40px;
@@ -282,7 +282,7 @@ p {
 	text-align: justify;
 	text-align-last: left;
 	text-justify: distribute;
-	line-height: 3rem;
+	line-height: 3.2rem;
 	word-spacing:0.1px ;
 	letter-spacing: 0.1px;
 }
