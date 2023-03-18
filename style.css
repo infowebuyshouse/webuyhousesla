@@ -1165,6 +1165,22 @@ p {
 		font-size: 6.5rem;
 	}
 	/* End home */
+	
+	
+#services .service-top p {
+
+    font-size: 3rem;
+	font-weight: 500;
+	
+        margin-bottom: 40px;
+        margin-top: 60px;
+	text-align: justify;
+	text-align-last: left;
+	text-justify: distribute;
+	line-height: 3.5rem;
+	word-spacing:0.1px ;
+	letter-spacing: 0.1px;
+}
 
 	#services .service-bottom .service-item1 {
 		flex-basis: 22%;
