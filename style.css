@@ -274,15 +274,15 @@ p {
 
 #services .service-top p {
 
-    font-size: 2.5rem;
+    font-size: 2.9rem;
 	font-weight: 500;
 	
-        margin-bottom: 40px;
-        margin-top: 60px;
+     margin-bottom: 40px;
+    margin-top: 60px;
 	text-align: justify;
 	text-align-last: left;
 	text-justify: distribute;
-	line-height: 3.2rem;
+	line-height: 3.4rem;
 	word-spacing:0.1px ;
 	letter-spacing: 0.1px;
 }
@@ -620,6 +620,12 @@ p {
 	z-index: -1;
 }
 /* End About Section */
+
+/* Gallery Section */
+
+
+
+/* End Gallery Section */
 
 /* contact Section */
 #contact .contact {
@@ -1165,24 +1171,6 @@ p {
 		font-size: 6.5rem;
 	}
 	/* End home */
-	
-	
-#services .service-top p {
-
-    font-size: 3rem;
-	font-weight: 500;
-	
-        margin-bottom: 40px;
-        margin-top: 60px;
-	text-align: justify;
-	text-align-last: left;
-	text-justify: distribute;
-	line-height: 4rem;
-	word-spacing:0.2px ;
-	letter-spacing: 0.2px;
-}
-
-}
 
 	#services .service-bottom .service-item1 {
 		flex-basis: 22%;
