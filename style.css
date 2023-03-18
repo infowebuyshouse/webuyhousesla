@@ -1169,7 +1169,7 @@ p {
 	
 #services .service-top p {
 
-    font-size: 3.5rem;
+    font-size: 3.2rem;
 	font-weight: 500;
 	
         margin-bottom: 40px;
@@ -1178,8 +1178,8 @@ p {
 	text-align-last: left;
 	text-justify: distribute;
 	line-height: 4rem;
-	word-spacing:0.8px ;
-	letter-spacing: 0.8px;
+	word-spacing:0.2px ;
+	letter-spacing: 0.2px;
 }
 
 }
