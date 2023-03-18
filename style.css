@@ -620,18 +620,14 @@ p {
 }
 /* End About Section */
 
-/* Gallery Section */
 
-
-
-/* End Gallery Section */
 
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
-	width: 90%;
+	width: 80%;
 }
 #contact .contact-items {
 	/* max-width: 400px; */
@@ -645,7 +641,7 @@ p {
 	border-radius: 10px;
 	padding: 20px;
 	margin: 30px;
-	display: stretch;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
