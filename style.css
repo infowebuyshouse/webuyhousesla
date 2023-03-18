@@ -1169,18 +1169,18 @@ p {
 	
 #services .service-top p {
 
-    font-size: 4rem;
+    font-size: 2.7rem;
 	font-weight: 500;
 	
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         margin-top: 60px;
 	text-align: justify;
 	text-align-last: left;
 	text-justify: distribute;
-	line-height: 4.2rem;
-	word-spacing:0.2px ;
-	letter-spacing: 0.2px;
-	
+	line-height: 3.2rem;
+	word-spacing:0.1px ;
+	letter-spacing: 0.1px;
+}
 
 }
 
