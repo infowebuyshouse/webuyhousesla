@@ -576,6 +576,7 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
+ 
 }
 #about .col-left {
 	width: 250px;
@@ -628,6 +629,7 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	width: 80%;
+
 }
 #contact .contact-items {
 	/* max-width: 400px; */
@@ -641,7 +643,7 @@ p {
 	border-radius: 10px;
 	padding: 20px;
 	margin: 30px;
-	display: flex;
+	display: relative;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
